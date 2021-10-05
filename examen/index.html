@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <style>
+      .carousel-control-next,
+      .carousel-control-prev {
+        width: auto;
+      }
+      .dropdown-toggle::after {
+        margin-left: 0;
+      }
+    </style>
+
+    <title>MARCA - EXAMEN</title>
+  </head>
+  <body>
+    <!-- HEADER 1 -->
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-light
+        bg-white
+        px-4
+        mx-3
+        py-1
+        d-none d-lg-block
+      "
+    >
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <form class="d-flex">
+            <img
+              src="img/laPortadaDeHoy.jpg"
+              class="me-1"
+              width="35"
+              height="50"
+              alt=""
+            />
+            <small class="mt-2 pt-1 ms-2 fw-bold">La portada de hoy</small>
+            <p class="ms-3"></p>
+          </form>
+          <form class="d-flex">
+            <img
+              src="img/radio-marca1.png"
+              class="me-2"
+              width="35"
+              height="50"
+              alt=""
+            />
+            <small class="mt-2 pt-1 ms-1 fw-bold">Radio MARCA</small>
+          </form>
+        </ul>
+        <!-- Logo Empresa -->
+        <a class="navbar-brand d-none d-sm-none d-md-block" href="#">
+          <img
+            src="img/Marca.png"
+            class="d-inline-block"
+            width="140"
+            height="40"
+            alt=""
+          />
+        </a>
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item dropdown">
+            <button
+              class="btn-xsm dropdown-toggle border me-2 rounded-1 bg-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img src="img/icon-es.png" class="" alt="" />
+              ES
+            </button>
+            <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+              <li>
+                <h6 class="dropdown-header border-bottom px-2">Ediciones:</h6>
+              </li>
+              <li>
+                <a class="dropdown-item active border-bottom px-2" href="#">
+                  <img src="img/icon-es.png" class="" alt="" />
+                  ES (España)</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item border-bottom px-2" href="#"
+                  ><img src="img/icon-en.png" alt="" /> EN (English)</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item border-bottom px-2" href="#"
+                  ><img src="img/icon-mx.png" alt="" /> MX (México)</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item border-bottom px-2" href="#"
+                  ><img src="img/icon-co.png" alt="" /> CO (Colombia)</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item border-bottom px-2" href="#"
+                  ><img src="img/icon-ar.png" alt="" /> AR (Argentina)</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item border-bottom-0 px-2" href="#"
+                  ><img src="img/icon-us.png" alt="" /> US (USA)</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Iniciar sesion -->
+        <form class="d-flex">
+          <button
+            type="button"
+            class="
+              border-0
+              btn btn-danger btn-outline-dark
+              text-white
+              fw-bold
+              btn-sm
+              me-2
+              px-3
+            "
+          >
+            Suscríbete
+          </button>
+          <button
+            type="button"
+            class="border btn btn-outline-dark text-nowrap fw-bold btn-sm"
+          >
+            Iniciar sesión
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- HEADER 2 -->
+    <div class="d-none d-lg-block">
+      <ul class="nav nav-pills nav-fill bg-danger py-0 px-4 d-flex flex-wrap">
+        <!-- Boton Futbol -->
+        <li class="nav-item flex-fill">
+          <button
+            class="
+              navbar-toggler
+              dropdown-toggle
+              p-0
+              py-2
+              px-2
+              me-2
+              border-0
+              btn btn-outline-dark
+              text-white
+              rounded-0
+              shadow-none
+            "
+            type="button"
+            data-toggle="collapse"
+            data-toggle="dropdown"
+            data-target="#navbarFutbol"
+            data-hover="dropdown"
+            aria-controls="navbarFutbol"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggle fw-bolder">Fútbol</span>
+          </button>
+        </li>
+        <!-- Boton Baloncesto -->
+        <li class="nav-item flex-fill">
+          <button
+            class="
+              navbar-toggler
+              dropdown-toggle
+              p-0
+              py-2
+              px-2
+              me-2
+              border-0
+              btn btn-outline-dark
+              text-white
+              rounded-0
+              shadow-none
+            "
+            type="button"
+            data-toggle="collapse"
+            data-toggle="dropdown"
+            data-target="#navbarBaloncesto"
+            data-hover="dropdown"
+            aria-controls="navbarBaloncesto"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggle fw-bold">Baloncesto</span>
+          </button>
+        </li>
+        <!-- Boton Motor -->
+        <li class="nav-item flex-fill">
+          <button
+            class="
+              navbar-toggler
+              dropdown-toggle
+              p-0
+              py-2
+              px-2
+              me-2
+              border-0
+              btn btn-outline-dark
+              text-white
+              rounded-0
+              shadow-none
+            "
+            type="button"
+            data-toggle="collapse"
+            data-toggle="dropdown"
+            data-target="#navbarMotor"
+            data-hover="dropdown"
+            aria-controls="navbarMotor"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggle fw-bold">Motor</span>
+          </button>
+        </li>
+        <!-- Boton Polideportivo -->
+        <li class="nav-item flex-fill">
+          <button
+            class="
+              navbar-toggler
+              dropdown-toggle
+              p-0
+              py-2
+              px-2
+              me-2
+              border-0
+              btn btn-outline-dark
+              text-white
+              rounded-0
+              shadow-none
+            "
+            type="button"
+            data-toggle="collapse"
+            data-toggle="dropdown"
+            data-target="#navbarPolideportivo"
+            data-hover="dropdown"
+            aria-controls="navbarPolideportivo"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggle fw-bold">Polideportivo</span>
+          </button>
+        </li>
+        <!-- Boton Coches -->
+        <li class="nav-item flex-fill">
+          <button
+            class="
+              navbar-toggler
+              dropdown-toggle
+              p-0
+              m-0
+              py-2
+              px-2
+              me-2
+              border-0
+              btn btn-outline-dark
+              text-white
+              rounded-0
+              shadow-none
+            "
+            type="button"
+            data-toggle="collapse"
+            data-toggle="dropdown"
+            data-target="#navbarCoches"
+            data-hover="dropdown"
+            aria-controls="navbarCoches"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggle fw-bold">Coches</span>
+          </button>
+        </li>
+        <!-- # -->
+        <li class="nav-item d-none mt-1 d-xxl-block">
+          <p class="nav-text text-white mb-0">
+            Última Hora / Programación TV / FANTASY
+          </p>
+        </li>
+        <!-- Boton Más -->
+        <li class="nav-item flex-fill">
+          <button
+            class="
+              navbar-toggler
+              p-0
+              py-2
+              px-2
+              me-2
+              border-0
+              btn btn-outline-sucundary
+              text-white
+              rounded-0
+              shadow-none
+            "
+            type="button"
+            data-toggle="collapse"
+            data-toggle="dropdown"
+            data-target="#navbarMas"
+            data-hover="dropdown"
+            aria-controls="navbarMas"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggle fw-bold">Más +</span>
+          </button>
+        </li>
+        <!-- Buscador -->
+        <li class="nav-item pt-1 flex-fill">
+          <input
+            class="form m-0 p-0 pb-1 me-auto rounded-1 border-0 shadow-none"
+            type="search"
+            placeholder="Buscar en marca.com"
+            aria-label="Search"
+          />
+          <button
+            class="me-auto m-0 p-0 btn shadow-none border-0 bg-white"
+            type="submit"
+          >
+            <img src="img/icon-search.png" alt="" />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Contenido header 2 -->
+    <!-- Contenido Futbol -->
+    <div class="collapse dropdown-menu1 px-4 mx-1 mx-xl-2" id="navbarFutbol">
+      <div class="bg-dark p-0 dropdown-menu1">
+        <div class="row text-white px-2 dropdown-menu1">
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">España</p>
+            <p class="mb-1 h6 fw-bold">LaLiga Santander</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold mt-2">Primera Iberdrola</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold mt-2">LaLiga SmartBank</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold pt-2">Primera RFEF Footters</p>
+            <small class="text-muted"></small>
+            <p class="mb-1 h6 fw-bold pt-2">Segunda RFEF</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Tercera RFEF</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Copa del Rey</p>
+            <small class="text-muted"> Calendario</small>
+            <p class="mb-1 h6 fw-bold pt-2">Supercopa de España</p>
+            <small class="text-muted"> Calendario</small>
+            <p class="mb-1 h6 fw-bold pt-2">Selección Española</p>
+            <small class="text-muted"
+              >EURO 2020 / Mundial 2022 / UEFA Nations League</small
+            >
+            <p class="mb-1 h6 fw-bold pt-2">Selección Española femenina</p>
+            <small class="text-muted">Euro 2022 / Mundial 2023</small>
+            <p class="mb-1 h6 fw-bold pt-2">Fútbol Sala</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Premios MARCA</p>
+            <small class="text-muted"></small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="mb-4 h5 fw-bold">Internacional ></p>
+            <p class="mb-1 h6 fw-bold">Premier League</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold mt-2">Bundesliga</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold mt-2">Serie A</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold pt-2">Ligue 1</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold pt-2">Primeira Liga de Portugal</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold pt-2">Eredivisie</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Liga I de Rumanía</p>
+            <small class="text-muted"></small>
+            <p class="mb-1 h6 fw-bold pt-2">Primera División de Bélgica</p>
+            <small class="text-muted"></small>
+            <p class="mb-1 h6 fw-bold pt-2">Premier League de Rusia</p>
+            <small class="text-muted"></small>
+            <p class="mb-1 h6 fw-bold pt-2">Superliga de Grecia</p>
+            <small class="text-muted"></small>
+            <p class="mb-1 h6 fw-bold pt-2">Superliga de Turquía</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold opacity-0">text</p>
+            <p class="mb-1 h6 fw-bold">Champions League</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold mt-2">Champions League femenina</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold mt-2">Europa League</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold pt-2">Conference League</p>
+            <small class="text-muted">
+              Calendario / Clasificación / Equipos</small
+            >
+            <p class="mb-1 h6 fw-bold pt-2">Supercopa de Europa</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Mandial de clubes</p>
+            <small class="text-muted"> Calendario</small>
+            <p class="mb-1 h6 fw-bold pt-2">Mundial 2022</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Mundial Femenino 2023</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">EURO 2020</p>
+            <small class="text-muted">Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold pt-2">EURO Femenina 2022</p>
+            <small class="text-muted"></small>
+            <p class="mb-1 h6 fw-bold pt-2">UEFA Nations League</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Copa África</p>
+            <small class="text-muted">Calendario</small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="mb-4 h5 fw-bold">Americá ></p>
+            <p class="mb-1 h6 fw-bold">Argentina</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold mt-2">Chile</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold mt-2">Colombia</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold pt-2">Estados Unidos</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold pt-2">México</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold pt-2">Venezuela</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold pt-2">CONMEBOL Libertadores</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold pt-2">Copa América</p>
+            <small class="text-muted"> Calendario</small>
+            <p class="mb-1 h6 fw-bold pt-2">Más Ámerica</p>
+            <small class="text-muted"
+              >Campeonato Brasileiro / Liga Bolivia / Paraguayan Primera
+              División / Primera División del Perú / Serie A de Ecuador /
+              Uruguayan Primera División
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contenido Baloncesto -->
+    <div
+      class="collapse dropdown-menu1 px-4 mx-1 mx-xl-2"
+      id="navbarBaloncesto"
+    >
+      <div class="bg-dark p-0">
+        <div class="row text-white px-2">
+          <div class="col-4 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">España</p>
+            <p class="mb-1 h6 fw-bold">Liga Endesa</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold mt-2">Basket FEB</p>
+            <small class="text-muted">
+              LEB Oro / LEB Plata / Liga Femenina</small
+            >
+            <p class="mb-1 h6 fw-bold mt-2">Copa del Rey</p>
+            <small class="text-muted"> Cuadro y resultados</small>
+            <p class="mb-1 h6 fw-bold pt-2">Selección</p>
+            <small class="text-muted"></small>
+            <p class="mb-1 h6 fw-bold pt-2">Eurobasket 2021</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-4 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Eurupa</p>
+            <p class="mb-1 h6 fw-bold">Euroliga</p>
+            <small class="text-muted"> Calendario / Clasificación</small>
+            <p class="mb-1 h6 fw-bold mt-2">Eurocup</p>
+            <small class="text-muted"> Resultados y Clasificación</small>
+            <p class="mb-1 h6 fw-bold mt-2">FIBA Champions League</p>
+            <small class="text-muted"> Resultados y Clasificación</small>
+          </div>
+          <div class="col-4 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Internacional</p>
+            <p class="mb-1 h6 fw-bold">NBA</p>
+            <small class="text-muted">
+              Playoffs / Calendario / Clasificaciones / Equipos</small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contenido Motor -->
+    <div class="collapse dropdown-menu1 px-4 mx-1 mx-xl-2" id="navbarMotor">
+      <div class="bg-dark p-0">
+        <div class="row text-white px-2">
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Coches</p>
+            <p class="mb-1 h6 fw-bold">Fórmula 1</p>
+            <small class="text-muted">
+              Calendario / Clasificación de pilotos / Clasificación de
+              constructores</small
+            >
+            <p class="mb-1 h6 fw-bold mt-2">Grandes Premios de Formula 1</p>
+            <small class="text-muted">
+              Bahrein / Emilia Romagna / Portugal / España / Mónaco / Azerbaiyán
+              / Francia / Estiria / Austria / Gran Bretaña / Hungría / Bélgica /
+              Países Bajos / Italia / Rusia / Turquía / Estados Unidos / México
+              / Brasil / Arabia Saudí / Emiratos Árabes</small
+            >
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="mb-4 h5 fw-bold opacity-0">text ></p>
+            <p class="mb-1 h6 fw-bold">Rallies</p>
+            <small class="text-muted">
+              Calendario / Clasificación de pilotos / Clasificación de equipos
+            </small>
+            <p class="mb-1 h6 fw-bold mt-2">Dakar</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">WEC</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Indycar</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">24 Horas de Daytona</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">24 Horas de Le Mans</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Motos</p>
+            <p class="mb-1 h6 fw-bold">Moto GP</p>
+            <small class="text-muted">
+              Calendario / Clasificación de pilotos</small
+            >
+            <p class="mb-1 h6 fw-bold mt-2">Grandes Premios de Moto GP</p>
+            <small class="text-muted">
+              Qatar / Doha / Portugal / España / Francia / Italia / Cataluña /
+              Alemania / Países Bajos / Estiria / Austria / Gran Bretaña /
+              Aragón / San Marino / Las Américas / Emilia Romagna / Algarve /
+              Comunidad Valenciana</small
+            >
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Modelos de coches</p>
+            <p class="mb-1 h6 fw-bold">Modelos</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Comparador de coches</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Pruebas de coches</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Ocio</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Vídeos</p>
+            <small class="text-muted"> </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contenido Polideportivo -->
+    <div
+      class="collapse dropdown-menu1 px-4 mx-1 mx-xl-2"
+      id="navbarPolideportivo"
+    >
+      <div class="bg-dark p-0">
+        <div class="row text-white px-2">
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Destacamos</p>
+            <p class="mb-1 h6 fw-bold">Atletismo</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Balonmano</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Ciclismo</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Deportes Invierno</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">eSports</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Golf</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold opacity-0">text</p>
+            <p class="mb-1 h6 fw-bold">Natación</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Pádel</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Tenis</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Turf</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Y además</p>
+            <p class="mb-1 h6 fw-bold">Ajedrez</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Boxeo</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Deportes Aventura</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Juegos Olímpicos</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">MMA</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">NFL</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold opacity-0">text</p>
+            <p class="mb-1 h6 fw-bold">Olimpismo</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Otros deportes</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Paralímpicos</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Rugby</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Toros</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Triatlon</p>
+            <small class="text-muted"> </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contenido Coches -->
+    <div class="collapse dropdown-menu1 px-4 mx-1 mx-xl-2" id="navbarCoches">
+      <div class="bg-dark p-0">
+        <div class="row text-white px-2">
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Coches y motos</p>
+            <p class="mb-1 h6 fw-bold">Coches</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Motos</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Tráficp</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Tecnología</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Industria</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Salones del Automovil</p>
+            <p class="mb-1 h6 fw-bold">Frankfurt</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Shanghái</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Ginebra</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold pt-2">Los Ángeles</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">París</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4">
+            <p class="text-muted mb-4 h5 fw-bold">Y además</p>
+            <p class="mb-1 h6 fw-bold">Accesorios</p>
+            <small class="text-muted"> </small>
+            <p class="mb-1 h6 fw-bold mt-2">Recomendador/Comparador</p>
+            <small class="text-muted"> </small>
+          </div>
+          <div class="col-3 h-100 p-4"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header mobil -->
+    <nav class="navbar navbar-light bg-light sticky-top d-lg-none py-0">
+      <div class="container-fluid">
+        <!-- Logo Empresa -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/Marca.png"
+            class="d-inline-block"
+            width="140"
+            height="40"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler bg-danger"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <!-- Logo Empresa -->
+            <a class="navbar-brand" href="#">
+              <img
+                src="img/Marca.png"
+                class="d-inline-block"
+                width="140"
+                height="40"
+                alt=""
+              />
+            </a>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <form class="d-flex">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-danger" type="submit">
+                <img src="img/icon-search.png" alt="" />
+              </button>
+            </form>
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mt-3">
+              <!-- Botón dropdown de idiomas -->
+              <li class="nav-item dropdown py-2">
+                <button
+                  class="btn-xsm dropdown-toggle border me-2 rounded-1 bg-white"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="img/icon-es.png" class="" alt="" />
+                  ES
+                </button>
+                <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+                  <li>
+                    <h6 class="dropdown-header border-bottom px-2">
+                      Ediciones:
+                    </h6>
+                  </li>
+                  <li>
+                    <a class="dropdown-item active border-bottom px-2" href="#">
+                      <img src="img/icon-es.png" class="" alt="" />
+                      ES (España)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item border-bottom px-2" href="#"
+                      ><img src="img/icon-en.png" alt="" /> EN (English)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item border-bottom px-2" href="#"
+                      ><img src="img/icon-mx.png" alt="" /> MX (México)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item border-bottom px-2" href="#"
+                      ><img src="img/icon-co.png" alt="" /> CO (Colombia)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item border-bottom px-2" href="#"
+                      ><img src="img/icon-ar.png" alt="" /> AR (Argentina)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item border-bottom-0 px-2" href="#"
+                      ><img src="img/icon-us.png" alt="" /> US (USA)</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- Botones Suscribete e Iniciar Sesión -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><button
+                    type="button"
+                    class="
+                      border-0
+                      btn btn-danger btn-outline-dark
+                      text-white
+                      fw-bold
+                      btn-sm
+                      me-2
+                      px-3
+                    "
+                  >
+                    Suscríbete
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      border
+                      btn btn-outline-dark
+                      text-nowrap
+                      fw-bold
+                      btn-sm
+                    "
+                  >
+                    Iniciar sesión
+                  </button></a
+                >
+              </li>
+              <!-- La portada de hoy -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >La portada de hoy</a
+                >
+              </li>
+              <!-- Radio MARCA -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Radio MARCA</a
+                >
+              </li>
+              <!-- Futbol -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Fútbol
+                </a>
+                <!-- <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"></a>
+                  </li>
+                </ul> -->
+              </li>
+              <!-- Baloncesto -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Baloncesto
+                </a>
+                <!-- <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"></a>
+                  </li>
+                </ul> -->
+              </li>
+              <!-- Motor -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Motor
+                </a>
+                <!-- <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"></a>
+                  </li>
+                </ul> -->
+              </li>
+              <!-- Polideportivo -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Polideportivo
+                </a>
+                <!-- <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"></a>
+                  </li>
+                </ul> -->
+              </li>
+              <!-- Coches -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Coches
+                </a>
+                <!-- <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"></a>
+                  </li>
+                </ul> -->
+              </li>
+              <!-- Ultima Hora -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Última Hora</a
+                >
+              </li>
+              <!-- Programacion TV -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Programación TV</a
+                >
+              </li>
+              <!-- FANTASY -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >FANTASY</a
+                >
+              </li>
+              <!-- Más + -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Más +</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BODY -->
+    <div class="container pb-5 p-5">
+      <!-- Carrusel -->
+      <div class="row bg-light">
+        <!-- CARRUSEL -->
+        <div
+          class="
+            col-lg-1
+            d-none d-md-block
+            p-0
+            text-center
+            d-md-none d-lg-block
+          "
+        >
+          <div
+            class="d-flex align-items-center flex-wrap h-100 border border-2"
+          >
+            <div class="dropdown">
+              <small class="fw-bold">Resultados:</small>
+              <button
+                class="btn bg-white dropdown-toggle btn-sm p-0 border p-1"
+                type="button"
+                id="dropdownButton1"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                data-display="static"
+              >
+                Todos:
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-md-start p-0"
+                aria-labelledby="dropdownButton1"
+              >
+                <li>
+                  <a class="dropdown-item p-0 fw-bold" href="#"
+                    ><small>Todos</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0 fw-bold" href="#"
+                    ><small>Fútbol</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>La Liga Santander</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>La liga SmartBank</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Premier League</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Serie A</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Bundesliga</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Ligue 1</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Primera Liga Portugal</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Primera Iberrola</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0 fw-bold" href="#"
+                    ><small>Baloncesto</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Liga Endesa</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0 fw-bold" href="#"
+                    ><small>Balonmano</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Liga Asobal</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0 fw-bold" href="#"
+                    ><small>Motor</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>Fórmula 1</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"
+                    ><small>MotoGP</small></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"><small>Moto2</small></a>
+                </li>
+                <li>
+                  <a class="dropdown-item p-0" href="#"><small>Moto3</small></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-11 p-0 text-center">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide1.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide2.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide3.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide4.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon btn btn-secondary"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon btn btn-secondary"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- CONTENIDO -->
+      <div class="row">
+        <div class="col-12 col-lg-8 mt-4">
+          <div class="card border-0 border-bottom rounded-0">
+            <img src="img/1.png" class="card-img-top mb-2" alt="..." />
+            <div class="card-body p-0">
+              <small class="text-muted">JOSÉ MARÍA RODRÍGUEZ</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4">
+          <div class="card border-0 border-bottom rounded-0">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="img/2.png" class="card-img img-fluid p-0" alt="..." />
+              </div>
+              <div class="col-8">
+                <div class="card-body ms-2 p-0 m-0">
+                  <p class="card-title text-primary mb-0">UNO A UNO</p>
+                  <p class="card-text fw-bold lh-1 pt-md-2 pt-lg-0">
+                    Militao y Nacho, nada como la pasada
+                  </p>
+                </div>
+              </div>
+              <small class="text-muted my-1">J. L. CALDERÓN</small>
+            </div>
+          </div>
+          <div class="card border-0 border-bottom rounded-0">
+            <div class="row g-0 mt-4">
+              <div class="col-4">
+                <img src="img/3.png" class="card-img img-fluid" alt="..." />
+              </div>
+              <div class="col-8">
+                <div class="card-body p-0 ms-2">
+                  <p class="card-title text-primary mb-0">LIVERPOOL 0-0 CITY</p>
+                  <p class="card-text fw-bold lh-1 pt-md-2 pt-lg-0">
+                    Liverpool - Manchester City
+                  </p>
+                </div>
+              </div>
+              <small class="text-muted my-1">IVÁN SÁNCHEZ</small>
+            </div>
+          </div>
+          <div class="card border-0 border-bottom rounded-0">
+            <div class="row g-0 mt-4">
+              <div class="col-4">
+                <img src="img/4.png" class="card-img img-fluid" alt="..." />
+              </div>
+              <div class="col-8">
+                <div class="card-body p-0 ms-2">
+                  <p class="card-title text-primary mb-0">PARÍS-ROUBAIX</p>
+                  <p class="card-text fw-bold lh-1 pt-md-2 pt-lg-0">
+                    Colbrelli contra a Van der Poel y Vermeersch
+                  </p>
+                </div>
+              </div>
+              <small class="text-muted my-1">EUGENIO MUÑOZ FERNÁNDEZ</small>
+            </div>
+          </div>
+          <div class="card border-0 border-bottom rounded-0">
+            <div class="row g-0 mt-4">
+              <div class="col-4">
+                <img src="img/5.png" class="card-img img-fluid" alt="..." />
+              </div>
+              <div class="col-8">
+                <div class="card-body p-0 ms-2">
+                  <p class="card-title text-primary mb-0">LALIGA SANTANDER</p>
+                  <p class="card-text fw-bold lh-1 pt-md-2 pt-lg-0">
+                    La Real podría acabar líder la jornada
+                  </p>
+                </div>
+              </div>
+              <small class="text-muted my-1 opacity-0"> text </small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/6.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">"Rennes 2 - 0 PSG" 1ra vez</h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-5">
+                <small class="text-muted">JOSÉ VICENTE HERNÁEZ</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/8.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">El 'Infierno del Norte'</h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-5">
+                <small class="text-muted">EUGENIO MUÑAS</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/17.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">Canelo apuesta su fortuna</h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-5">
+                <small class="text-muted"></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/7.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">"Otro que se cae de la lista"</h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-5">
+                <small class="text-muted">GUADA GUERRA</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/9.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">La némesis de Jordan</h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-5">
+                <small class="text-muted">GUILLERMO GARCÍA</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/18.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">Neymar es decepcionante</h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-5">
+                <small class="text-muted"></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/10.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">
+                Julio Urías liga 20 triunfos con los Dodgers en la victoria ante
+                los Brewers
+              </h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-3"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/11.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">
+                ¡Ruina James! Su valor ya es de 50 millones menos que cuando
+                llegó al Real Madrid
+              </h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-3"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/12.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">
+                “Neymar es un mocoso y mimado al que han OTORGADO las llaves del
+                PSG”
+              </h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-3"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="img/13.png" class="card-img img-fluid" alt="..." />
+              </div>
+              <div class="col-8">
+                <div class="card-body p-0 ms-2">
+                  <p class="card-title p-0 text-primary mb-0">
+                    VILLARREAL-BETIS
+                  </p>
+                  <p class="card-text p-0 fw-bold">Onces confirmados</p>
+                </div>
+              </div>
+              <small class="text-muted my-1">M. Á. RODRIGUEZ</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="img/19.png" class="card-img img-fluid" alt="..." />
+              </div>
+              <div class="col-8">
+                <div class="card-body p-0 ms-2">
+                  <p class="card-title text-primary mb-0">LEVANTATE</p>
+                  <p class="card-text fw-bold">Candidato al banquillo</p>
+                </div>
+              </div>
+              <small class="text-muted my-1">M. A. RODRIGUEZ</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="img/14.png" class="card-img img-fluid" alt="..." />
+              </div>
+              <div class="col-8">
+                <div class="card-body p-0 ms-2">
+                  <p class="card-title text-primary mb-0">GETAFE-REAL</p>
+                  <p class="card-text fw-bold">Novedades en Gatafe</p>
+                </div>
+              </div>
+              <small class="text-muted my-1">MIGUEL ÁNGEL GARCÍA</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/15.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">
+                Guardiola Ocultó 500.000 euros en una cuenta
+              </h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-3">
+                <small class="text-muted"> </small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/16.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">
+                Ricardinho y Portugal ya tienen su estrella
+              </h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-3">
+                <small class="text-muted">ÓSCAR GARCÍA</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <div class="card h-100 border-0 border-bottom rounded-0">
+            <img src="img/20.png" class="card-img-top" alt="" />
+            <div class="card-body p-0 mt-3">
+              <h5 class="card-title fw-bold">
+                Laporta cierra las 'fronteras' a Koeman
+              </h5>
+              <p class="card-text"></p>
+              <p class="card-text mt-3">
+                <small class="text-muted"></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER 1 -->
+    <div class="container-fluid bg-dark mt-4 pb-5">
+      <div class="container text-white px-5">
+        <div class="row">
+          <p class="fw-bold text-center border-bottom mt-1 p-2">
+            Otras webs de Unidad Editorial
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <p><strong>Marca</strong></p>
+            <p class="mb-0"><small>App Marca</small></p>
+            <p class="mb-0"><small>Clasificación La Liga</small></p>
+            <p class="mb-0"><small>Calendario La Liga</small></p>
+            <p class="mb-0"><small>Hemeroteca Marca</small></p>
+            <p class="mb-0"><small>Marca eSports</small></p>
+            <p class="mb-0"><small>Marca en Orbyt</small></p>
+          </div>
+          <div class="col-6 col-md-3">
+            <p><strong>Ocio y Moda</strong></p>
+            <p class="mb-0"><small>Tiramilla</small></p>
+            <p class="mb-0"><small>Moda - Telva</small></p>
+            <p class="mb-0"><small>BUHO Magazine</small></p>
+            <p class="mb-0"><small>Traductor</small></p>
+            <p class="mb-0"><small>Programación TV</small></p>
+            <p class="mb-0"><small>Marca Entradas</small></p>
+            <p class="mb-0"><small>Mi bebé y yo</small></p>
+          </div>
+          <div class="col-6 col-md-3">
+            <p><strong>Unidad Editorial</strong></p>
+            <p class="mb-0"><small>El Mundo</small></p>
+            <p class="mb-0"><small>Expansión</small></p>
+            <p class="mb-0"><small>CuídatePlus</small></p>
+            <p class="mb-0"><small>Diario Médico</small></p>
+            <p class="mb-0"><small>Correo Farmacéutico</small></p>
+            <p class="mb-0"><small>Suscripción Marca</small></p>
+          </div>
+          <div class="col-6 col-md-3">
+            <p><strong>Formación y Empleo</strong></p>
+            <p class="mb-0"><small>Escuela Unidad Editorial</small></p>
+            <p class="mb-0"><small>Unidad Editorial</small></p>
+            <p class="mb-0"><small>Expansión y Empleo</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER 2 -->
+    <div class="conteiner-fluid bg-dark bg-opacity-10 pt-3">
+      <div class="conteiner text-center px-5">
+        <div class="row">
+          <div class="col">
+            <p class="fw-bold mb-1">
+              © Octubre 2021 Unidad Editorial Información Deportiva, S.L.U.
+              Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
+        <div class="row mb-0 px-4 mx-md-5">
+          <ul
+            class="
+              list-group list-group-horizontal
+              justify-content-center
+              align-items-center
+              flex-wrap
+              mb-0
+              pe-0
+              px-lg-3
+            "
+          >
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Términos y condiciones de uso</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Politica de privacidad</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Política de cookies</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Certificado por OJD</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Contacto</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Publicidad</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Ayuda</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Nuestro equipo</small></p>
+            </li>
+            <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+              <p class="mb-0"><small>Venta de contenidos</small></p>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-12 mt-4 mb-2">
+            <small class="fw-bold">Síguenos en</small>
+          </div>
+          <div class="col-12 mb-5">
+            <ul
+              class="
+                list-group list-group-horizontal
+                d-flex
+                justify-content-center
+                align-items-center
+                flex-wrap
+                mb-0
+                p-0
+              "
+            >
+              <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+                <p class="mb-0">
+                  <img src="img/icon-facebook.png" alt="" />
+                </p>
+              </li>
+              <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+                <p class="mb-0"><img src="img/icon-twitter.png" alt="" /></p>
+              </li>
+              <li class="list-group-item p-0 border-0 bg-transparent mx-2">
+                <p class="mb-0"><img src="img/icon-rss.png" alt="" /></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
