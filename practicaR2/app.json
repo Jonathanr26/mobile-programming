@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Practica-R2",
-    "slug": "practica-r2",
+    "name": "PracticaR2",
+    "slug": "practicar2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
