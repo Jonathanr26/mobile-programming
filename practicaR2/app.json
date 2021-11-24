@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Practica-R2",
+    "slug": "practica-r2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Practica realizada por:\nKenia Elizabeth Villa Serratos\nJonathan Eduardo Rodriguez Villaseñor",
+    "githubUrl": "https://github.com/Jonathanr26/mobile-programming.git"
+  }
+}
